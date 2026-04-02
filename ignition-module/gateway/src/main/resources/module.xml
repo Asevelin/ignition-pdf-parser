@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+    <name>PDF Tool Module</name>
+    <id>com.adriansevelin.pdfmodule</id>
+    <version>1.1.0</version>
+    <vendorName>Adrian Sevelin</vendorName>
+    <description>Adds system.pdf.downloadPDF, downloadAndRead, listPDF, readPDF, parseBetween, and parsePDF</description>
+
+    <requiredIgnitionVersion>8.3.0</requiredIgnitionVersion>
+    <hooks>
+        <hook scope="G">com.adriansevelin.pdfmodule.PdfGatewayHook</hook>
+    </hooks>
+</module>
