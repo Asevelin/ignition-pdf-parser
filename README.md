@@ -1,4 +1,11 @@
 # PDF Tool Ignition Module
+
+Installation:
+
+Copy the .modl file to your Ignition gateway
+Open the gateway page and navigate to modules and install it
+Restart the gateway
+
 Available functions:
 
 - `system.pdf.downloadPDF(url, destination)`
@@ -9,6 +16,7 @@ Available functions:
 - `system.pdf.parsePDF(source, values)`
 
 Sample code:
+Run these as message handlers on the gateway level
 
 ```python
 saved_path = system.pdf.downloadPDF(
