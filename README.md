@@ -2,9 +2,9 @@
 
 Installation:
 
-Copy the .modl file to your Ignition gateway
-Open the gateway page and navigate to modules and install it
-Restart the gateway
+* Copy the .modl file to your Ignition gateway
+* Open the gateway page and navigate to modules and install it
+* Restart the gateway
 
 Available functions:
 
